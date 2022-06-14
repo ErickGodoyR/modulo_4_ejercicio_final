@@ -51,17 +51,17 @@
 			<input type="hidden" name="id" id="id" value="${estudiante.getId()}">
 			
 			<div class="row mt-4">
-    			<div class="col align-self-start">
+    			<div class="col align-self-start col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
       				<label for="rut" class="form-label">Rut</label> <input
 					type="text" class="form-control" name="rut" id="rut"
 					placeholder="Ingresa rut" value="${estudiante.getRut()}" required>
     			</div>
-    			<div class="col align-self-center">
+    			<div class="col align-self-center col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
       				<label for="nombre" class="form-label">Nombre</label> <input
 					type="text" class="form-control" id="nombre" name="nombre"
 					placeholder="Ingresa Nombre" value="${estudiante.getNombre()}" required>
     			</div>
-   			 	<div class="col align-self-end">
+   			 	<div class="col align-self-end col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
       				<label for="email" class="form-label">Email</label> <input
 					type="email" class="form-control" id="email" name="email"
 					placeholder="Ingresa Email" value="${estudiante.getEmail()}" required>
@@ -69,12 +69,12 @@
   			</div>
   			
   			<div class="row mt-4">
-  				<div class="col align-self-start">
+  				<div class="col align-self-start col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 					<label for="telefono" class="form-label">Telefono</label> <input
 					type="text" class="form-control" id="telefono" name="telefono"
 					placeholder="Ingresa Telefono" value="${estudiante.getTelefono()}" required>
     			</div>
-    			<div class="col align-self-center">
+    			<div class="col align-self-center col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
     			<label for="last_update" class="form-label">Ultima Actualizacion</label> <input
 					type="text" class="form-control" id="last_update" name="last_update"
 					placeholder="Actualizacion Ingreso" value="${estudiante.getLast_update()}" readonly>

@@ -53,17 +53,17 @@
 			<input type="hidden" name="id" id="id" value="${curso.getId()}">
 			
 			<div class="row mt-4">
-    			<div class="col align-self-start">
-      				<label for="codigo" class="form-label ms-3">Codigo</label> <input 
-					type="text" class="form-control ms-3" name="codigo" id="codigo"
+    			<div class="col align-self-start col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      				<label for="codigo" class="form-label">Codigo</label> <input 
+					type="text" class="form-control" name="codigo" id="codigo"
 					placeholder="Ingresa código del curso" value="${curso.getCodigo()}" required>
     			</div>
-    			<div class="col align-self-center">
+    			<div class="col align-self-center col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
       				<label for="nombre" class="form-label">Nombre</label> <input
 					type="text" class="form-control" id="nombre" name="nombre"
 					placeholder="Ingresa Nombre" value="${curso.getNombre()}" required>
     			</div>
-   			 	<div class="col align-self-end">
+   			 	<div class="col align-self-end col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
       				<label for="id_facilitador" class="form-label">Id_Facilitador</label> <input
 					type="number" class="form-control" id="id_facilitador" name="id_facilitador"
 					placeholder="Ingresa Email" value="${curso.getId_facilitador()}" required>
@@ -71,37 +71,11 @@
   			</div>
   			
   			
-  			<tbody>
-				<c:forEach var="cs" items="${curso}">
-					<tr>
-						<td><c:out value="${cs.getId()}"></c:out></td>
-						<td><c:out value="${cs.getCodigo()}"></c:out></td>
-						<td><c:out value="${cs.getNombre()}"></c:out></td>
-						<td><c:out value="${cs.getId_facilitador()}"></c:out></td>
-						<td> <c:out value = "${cs.getLast_update()}"/></td>
-						<td>
-						
-					
-							 <a
-							href="${pageContext.request.contextPath}/AgregarCursoServlet?id=${cs.getId()}"
-							class="btn btn-secondary"><i
-								class="fa-solid fa-pen-to-square"></i></a>
-						</td>
-						<td>
-								 <a
-							href="${pageContext.request.contextPath}/AgregarCursoServlet?id=${cs.getId()}&op=del"
-							class="btn btn-secondary"><i class="fa-solid fa-trash"></i></a>
-						</td>
-					</tr>
-				</c:forEach>
-			</tbody>
-  			
-  			
-  			
+  		
   			<div class="row mt-4">
-  				<div class="col align-self-start">
-					<label for="last_update" class="form-label ms-3">Last Update</label> <input
-					type="text" class="form-control ms-3" id="last_update" name="last_update"
+  				<div class="col align-self-start col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+					<label for="last_update" class="form-label">Last Update</label> <input
+					type="text" class="form-control" id="last_update" name="last_update"
 					placeholder="Última Actualización" value="${curso.getLast_update()}" readonly>
     			</div>
     			<div class="col align-self-center">

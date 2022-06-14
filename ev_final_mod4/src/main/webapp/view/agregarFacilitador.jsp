@@ -50,48 +50,48 @@
 			<input type="hidden" name="id" id="id" value="${facilitador.getId()}">
 			
 			<div class="row mt-4">
-    			<div class="col align-self-start">
+    			<div class="col align-self-start col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
       				<label for="rut" class="form-label">Rut</label> <input
-					type="text" class="form-control" name="rut" id="rut"
+					type="text" class="form-control text-sm-center text-md-center text-lg-center text-xl-center" name="rut" id="rut"
 					placeholder="Ingresa rut" value="${facilitador.getRut()}" required>
     			</div>
-    			<div class="col align-self-center">
+    			<div class="col align-self-center col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
       				<label for="nombre" class="form-label">Nombre</label> <input
-					type="text" class="form-control" id="nombre" name="nombre"
+					type="text" class="form-control text-sm-center text-md-center text-lg-center text-xl-center" id="nombre" name="nombre"
 					placeholder="Ingresa Nombre" value="${facilitador.getNombre()}" required>
     			</div>
-   			 	<div class="col align-self-end">
+   			 	<div class="col align-self-end col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
       				<label for="email" class="form-label">Email</label> <input
-					type="email" class="form-control" id="email" name="email"
+					type="email" class="form-control text-sm-center text-md-center text-lg-center text-xl-center" id="email" name="email"
 					placeholder="Ingresa Email" value="${facilitador.getEmail()}" required>
     			</div>
   			</div>
   			
   			<div class="row mt-4">
-  				<div class="col align-self-start">
+  				<div class="col align-self-start col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 					<label for="telefono" class="form-label">Telefono</label> <input
-					type="text" class="form-control" id="telefono" name="telefono"
+					type="text" class="form-control text-sm-center text-md-center text-lg-center text-xl-center" id="telefono" name="telefono"
 					placeholder="Ingresa Telefono" value="${facilitador.getTelefono()}" required>
     			</div>
-    			<div class="col align-self-center">
+    			<div class="col align-self-center col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
     				<label for="valorhora" class="form-label">Valor Hora</label> <input
-					type="number" step="0.01" class="form-control" id="valorhora" name="valorhora"
+					type="number" step="0.01" class="form-control text-sm-center text-md-center text-lg-center text-xl-center" id="valorhora" name="valorhora"
 					placeholder="Ingresa Telefono" value="${facilitador.getValorhora()}" required>
     			</div>
-    			<div class="col align-self-end">
+    			<div class="col align-self-end col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
  					<label for="banco" class="form-label">Banco</label> <input
-					type="text" class="form-control" id="banco" name="banco"
+					type="text" class="form-control text-sm-center text-md-center text-lg-center text-xl-center" id="banco" name="banco"
 					placeholder="Ingresa Telefono" value="${facilitador.getBanco()}" required>     		
     			</div>
 			</div>
 			
 			<div class="row mt-4">
-  				<div class="col align-self-start">
+  				<div class="col align-self-start  col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 					<label for="ctabancaria" class="form-label">Cta Bancaria</label> <input
-					type="text" class="form-control" id="ctabancaria" name="ctabancaria"
+					type="text" class="form-control text-sm-center text-md-center text-lg-center text-xl-center sm-3" id="ctabancaria" name="ctabancaria"
 					placeholder="Ingresa Telefono" value="${facilitador.getCtabancaria()}" required>
     			</div>
-    			<div class="col align-self-center">
+    			<div class="col align-self-center col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
     				<label for="last_update" class="form-label">Ultima Actualizacion</label> <input
 					type="text" class="form-control" id="last_update" name="last_update"
 					placeholder="Actuaizacion Ingreso" value="${facilitador.getLast_update()}" readonly>
